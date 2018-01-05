@@ -1,7 +1,7 @@
 # CharacterLCDController
 Requires the pi4j library: http://pi4j.com/download.html
 
-# Pinout:
+# Pinout
 |GPIO Pin|LCD Pin|Name in code|
 |------|:-----:|:----------:|
 |+5 VDC|2, 15|N/A|
@@ -22,3 +22,7 @@ Requires the pi4j library: http://pi4j.com/download.html
 ##### 26 pin header: http://pi4j.com/pins/model-a-rev2.html#P1_Pinout_26-pin_Header
 ##### 40 pin header: http://pi4j.com/pins/model-b-plus.html#J8_Pinout_40-pin_Header
 
+# CLI Parameters:
+  * -g: Force GUI
+  * -c: Force CLI
+  * -d: Debug mode (does not require Pi4J or a Raspberry Pi, used for debug purposes only).  Requires a terminal for full functionality
