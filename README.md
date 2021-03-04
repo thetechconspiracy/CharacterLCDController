@@ -1,6 +1,14 @@
 # CharacterLCDController
 Requires the pi4j library: http://pi4j.com/download.html
 
+# Building
+1. Install the pi4j library:
+`sudo apt install pi4j`
+2. In the src/charlcdcontroller directory, compile the program with:
+`pi4j -c *.java`
+3. Run the program with
+`pi4j -r CharLCDController`
+
 # Pinout
 |GPIO Pin|LCD Pin|Name in code|
 |------|:-----:|:----------:|
